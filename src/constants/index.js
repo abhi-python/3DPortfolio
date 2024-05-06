@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, tech, nline } from "../assets/images";
 import {
   car,
   contact,
@@ -58,11 +58,6 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
-  {
     imageUrl: motion,
     name: "Motion",
     type: "Animation",
@@ -111,11 +106,11 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    title: "Software Engineer",
+    company_name: "FiftyFive Technologies",
+    icon: tech,
+    iconBg: "#1b1525",
+    date: "June 2023 - present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -124,44 +119,45 @@ export const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    title: "Integration Expert",
+    company_name: "NlineAxis IT Solutions Private Limited",
+    icon: nline,
+    iconBg: "#ffffff",
+    date: "May 2021 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Video encoding, DRM configuration, content management platforms, and streaming protocols.",
+      "Debugging custom code in JavaScript, HTML/CSS and React.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Network log analysis and console log inspection to find inconsistencies.",
+      "API v1 and v2 endpoint CRUD request and fecthing and posting data using react.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#b7e4c7",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#a2d2ff",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 export const socialLinks = [
@@ -173,12 +169,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/abhi-python",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/abhilash-saini-693108138",
   },
 ];
 
@@ -186,49 +182,73 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Nug Inc.",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
+      "NUG, Inc. is a leading California-based cannabis company renowned for its commitment to innovation and quality across its diverse portfolio of products and services. As a Frontend Developer at NUG, I have been integral to the development of engaging and user-friendly digital experiences that showcase the company's world-class R&D, cultivation, extraction, and retail offerings.",
     link: "https://github.com/adrianhajdin/pricewise",
   },
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Logical Contracts",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+      'It facilitate the creation and management of various types of contracts including e-signatures, business contracts, buy and sell agreements, director agreements, and employment contracts.',
     link: "https://github.com/adrianhajdin/threads",
   },
   {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Invoicing System",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
+      "Invoicing system is to automate and optimize the invoicing process within a business. This system aims to replace manual or paper-based invoicing methods, reduce errors, improve efficiency, and enhance the overall financial management of the organization.",
     link: "https://github.com/adrianhajdin/project_next13_car_showcase",
   },
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "RunViable",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
+      "Runviable was a management system which monitors the profit and losses of an ecommerce organization. It shows various business aspects in visual forms like cashflow, sales, marketing expenses etc. Initially it supported only shopify businesses with the support of Xero account. It also has a chat module with ChatGPT which interacts with the business owners about these aspects.",
     link: "https://github.com/adrianhajdin/social_media_app",
   },
   {
     iconUrl: estate,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "JW Player",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+      "It is a Video Platform for Video-Driven Companies.",
     link: "https://github.com/adrianhajdin/projects_realestate",
   },
   {
     iconUrl: summiz,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Malta Web App",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+      "A single page visiting web application includes different routes (i.e. Home, About, services, Contact, Product).",
+    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-red",
+    name: "3D Portfolio",
+    description:
+      "Developed a portfolio website utilizing React 3 Fiber. Implemented 3D modeling and animations using Three.js library. Utilized various camera angles and lighting techniques to enhance scene depth, shadows, and highlights. Integrated materials, textures, and shaders for realistic 3D rendering.",
+    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-green",
+    name: "Portfolio Website",
+    description:
+      "My portfolio website showcases my expertise as a front-end developer using React. The site features a clean and modern design with smooth animations and responsive layout. It includes sections for my projects, skills, education, and interests. Visitors can easily navigate and interact with the site, and get a sense of my capabilities and personality.",
+    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-blue",
+    name: "Web application using React",
+    description:
+      "Created a website using react and styled component. Comfortably work with NPM, react routers, props and manage states and work with reusable components.",
     link: "https://github.com/adrianhajdin/project_ai_summarizer",
   },
 ];
