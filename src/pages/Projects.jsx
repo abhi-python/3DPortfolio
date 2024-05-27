@@ -41,7 +41,7 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className="text-slate-500 mt-2">{project.description}</p>
-              <div className="mt-5 flex items-center gap-2 font-poppins">
+              {/* <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link
                   to={project.link}
                   target="_blank"
@@ -55,7 +55,7 @@ const Projects = () => {
                   alt="arrow"
                   className="w-4 h-4 object-contain"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
